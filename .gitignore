@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Logs / OS / editor cruft
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build / coverage / release output
+dist/
+coverage/
+*.zip
+
+# Local AI-assistant knowledge & tooling — never part of the public repo
+CLAUDE.md
+AGENTS.md
+.claude/
+.cursor/
+.aider*
+**/*.skill.md
+HANDOFF.md
